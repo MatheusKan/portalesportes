@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquerda</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: black;
+        }
+
+        .menu {
+            width: 250px;
+            background-color: black;
+            height: 100vh;
+            position: fixed;
+        }
+
+        a {
+            text-decoration: none;
+            color: #006DBF;
+        }
+
+        li {
+            border: 1px solid #DD6833;
+            padding: 3px;
+            margin-bottom: 6px;
+            color: #006DBF;
+
+        }
+
+        li:hover {
+            background-color: #DD6833;
+            font-family: "Comic Sans MS";
+            color: green;
+            transition: 0.4s;
+            display: block;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        .sub-menu {
+            display: none;
+            position: absolute;
+            top: 50;
+            background-color: black;
+            padding: 10px;
+            width: 200px;
+        }
+
+        .menu li:hover .sub-menu {
+            display: block;
+            margin-left: 60px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sub-menu1 {
+            display: none;
+            position: absolute;
+            top: 50;
+            background-color: black;
+            padding: 10px;
+            width: 150px;
+        }
+        .menu li:hover .sub-menu1 {
+            display: block;
+            margin-left: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="historiaBasquete.html" target="mainFrame">História do Basquete</a></li>
+            <li><a href="historiaBasqbrasil.html" target="mainFrame">História do Basquete no Brasil</a></li>
+            <li><a href="Regradobasquete.html" target="mainFrame">Regras do Basquete</a></li>
+            <li><a href="regrasoriginais.html" target="mainFrame">Regras originais do Basquete</a></li>
+            <li>Principais Times
+                <ul class="sub-menu">
+                    <li><a href="time1.html" target="mainFrame">Chicago Bulls</a></li>
+                    <li><a href="time2.html" target="mainFrame">Los Angeles Lakers</a></li>
+                    <li><a href="time3.html" target="mainFrame">Boston Celtics</a></li>
+                    <li><a href="time4.html" target="mainFrame">Golden State Warriors</a></li>
+                    <li><a href="time5.html" target="mainFrame">Toronto Raptors</a></li>
+            </li>
+        </ul>
+        <li>Principais Jogadores
+            <ul class="sub-menu">
+                <li><a href="jogador1.html" target="mainFrame">Michael Jordan</a></li>
+                <li><a href="jogador2.html" target="mainFrame">Lebron James</a></li>
+                <li><a href="jogador3.html" target="mainFrame">Kareem Abdul-Jabbar</a></li>
+                <li><a href="jogador4.html" target="mainFrame">Shaquille O'Neal</a></li>
+                <li><a href="jogador5.html" target="mainFrame">Vince Carter</a></li>
+                <li><a href="jogador6.html" target="mainFrame">Kobe Bryant</a></li>
+        </li>
+        </ul>
+        <li>Torneios de Basquete
+            <ul class="sub-menu1">
+                <li><a href="Torneio1.html" target="mainFrame">NBA</a></li>
+                <li><a href="Torneio2.html" target="mainFrame">WNBA</a></li>
+                <li><a href="Torneio3.html" target="mainFrame">NCAA</a></li>
+                <li><a href="Torneio4.html" target="mainFrame">FIBA</a></li>
+                <li><a href="Torneio5.html" target="mainFrame">NBB</a></li>
+                <li><a href="Torneio6.html" target="mainFrame">Jogos Olímpicos</a></li>
+        </li>
+        </ul>
+        </li>
+        <li><a href="influencia.html" target="mainFrame">Influência do Basquete na Cultura</a></li>
+        <li><a href="Evolucao.html" target="mainFrame">Evolução do Basquete</a></li>
+        <li><a href="tecnologia.html" target="mainFrame">Tecnologia no Basquete</a></li>
+        <li><a href="recordes.html" target="mainFrame">Recordes e Conquistas</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
